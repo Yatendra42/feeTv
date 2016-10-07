@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; outline:0; }
+a, a:active, a:focus, a:visited, a:hover { outline: none; text-decoration: none; color: inherit; transition: 0.5s; }
+body {font-family:Montserrat, Arial, Helvetica, sans-serif;}
+h1 { font: 400 36px/40px Montserrat, Arial, Helvetica, sans-serif; text-transform:uppercase; padding-bottom:18px; background:url(images/header-border.png) no-repeat center bottom; display:inline-block; margin-bottom:18px; }
+h2 { font: 400 30px/48px Montserrat, Arial, Helvetica, sans-serif; text-transform:uppercase;}
+h3 { font: 400 28px/40px Montserrat, Arial, Helvetica, sans-serif; }
+h4 { font: 400 24px/40px Montserrat, Arial, Helvetica, sans-serif; }
+h5 { font: 400 22px/40px Montserrat, Arial, Helvetica, sans-serif; }
+h6 { font: 400 20px/40px Montserrat, Arial, Helvetica, sans-serif; }
+p { font: 300 16px/30px Lato, Arial, Helvetica, sans-serif; }
+ul { margin: 0; }
+ul li { list-style: none; color: inherit; font: 400 16px/30px Lato, Arial, Helvetica, sans-serif; transition: 0.5s;  list-style:square; margin-left:20px; }
+ol li { font: 400 16px/30px Lato, Arial, Helvetica, sans-serif; margin-left:20px; }
+ul li a:hover { color: inherit; transition: 0.5s; }
+
+
+
+.box{ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); padding:15px; }
+.heading-con{background:url(../images/background-h1.jpg) no-repeat center;background-size:cover;min-height: 300px;text-align: center;padding: 116px 50px;color: #fff;}
+.heading-con h1{ margin:0;}
+
+.myBtn{ display: block; width: 100%; padding: 15px; color: #fff; background: #337ab7; border: none; font-size: 20px; }
+.content-cover{padding-top:50px;  }
