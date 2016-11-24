@@ -16,7 +16,16 @@ $(".aajTak").click(function() {
    
  });  
     
-$(".demo").click(function() { 
+
+$(".abp").click(function() { 
+   $(".modal-body").find("iframe").remove();
+    $(".modal-title").text("ABP NEWS");
+   $(".modal-body").append("<iframe width=' 100%'  height=' 250'  src=' http://cdn.abplive.in/homepage_playlist.html'  frameborder=' 0'  allowfullscreen=' '></iframe>")
+   
+ });        
+    
+    
+  $(".demo").click(function() { 
    $(".modal-body").find("iframe").remove();
     $(".modal-title").text("Demo");
    $(".modal-body").append("<iframe title='demo'></iframe>")
